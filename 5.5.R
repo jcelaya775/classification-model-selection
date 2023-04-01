@@ -1,7 +1,6 @@
 rm(list=ls())
 set.seed(1)
 library(ISLR)
-?Default
 
 # a) Fit logistic regression model
 glm.fit = glm(default ~ income + balance, data = Default, family = binomial)
